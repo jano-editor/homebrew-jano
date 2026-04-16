@@ -1,20 +1,20 @@
 class Jano < Formula
   desc "Terminal editor with plugin-based syntax highlighting and formatting"
   homepage "https://janoeditor.dev"
-  version "1.0.0-alpha.17"
+  version "1.0.0-alpha.18"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/jano-editor/jano/releases/download/editor-v#{version}/jano-darwin-arm64"
-      sha256 "e8e3bce1aee2f789a4eb288acd94f328854514818a22d48b4f0645f320587912"
+      sha256 "3a74ea57768e60d825fde9fd6305cda76b37909430e7f37d479991c10573b7bd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jano-editor/jano/releases/download/editor-v#{version}/jano-linux-x64"
-      sha256 "d5136f025dc5ed6260962ffed46442d46a32ca2729223502af174eff0f31da7a"
+      sha256 "fd786fc3d78aafc6ed36e905cd0904d1d2186876a13408f068c8344f22e6a3cc"
     end
   end
 
